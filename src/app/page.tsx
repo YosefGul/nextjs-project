@@ -5,7 +5,7 @@
 // import dynamic from "next/dynamic";
 // const Select = dynamic(() => import("react-select"), { ssr: false });
 
-import PostListPage from "./components/posts";
+import PostListPage from "@/components/posts";
 
 export default function Home() {
   // const [result, setResult] = useState(null);
